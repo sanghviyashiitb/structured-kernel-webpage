@@ -1,0 +1,69 @@
+I"<link rel="stylesheet" href="./css/slideshow.css" />
+
+<h1>Structured Kernel Estimation for Photon-Limited Deconvolution</h1>
+<h3>Yash Sanghvi, Zhiyuan Mao, Stanley H. Chan</h3>
+
+<div style="width:100%;">
+	<div style="float:left;width:24%;">
+		<a href="https://arxiv.org/abs/2303.03472">
+		<img src="assets/arxiv-logo.png" alt="drawing" style="width:20%;padding:5%;" />
+		<h2>Arxiv</h2>
+	</a>
+	</div>
+	<div style="float:left;width:24%;">
+		<a href="https://www.youtube.com/watch?v=jqCUJb3BUUo">
+		<img src="assets/video-logo.png" alt="drawing" style="width:20%;padding:5%;" />
+		<h2>Video (5 min.)</h2>
+	</a>
+	</div>
+	<div style="float:left;width:24%;">
+		<a href="https://github.com/sanghviyashiitb/poisson-deblurring">
+		<img src="assets/github.png" alt="drawing" style="width:20%;padding:5%;" />
+		<h2>Code</h2>
+	</a>
+	</div>
+</div>
+
+<h2>Abstract</h2>
+<p>Images taken in a low light condition with the presence of camera shake suffer from motion blur and photon shot noise. While state-of-the-art image restoration networks show promising results, they are largely limited to well-illuminated scenes and their performance drops significantly when photon shot noise is strong.
+In this paper, we propose a new blur estimation technique customized for photon-limited conditions. The proposed method employs a gradient-based backpropagation method to estimate the blur kernel. By modeling the blur kernel using a low-dimensional representation with the key points on the motion trajectory, we significantly reduce the search space and improve the regularity of the kernel estimation problem. When plugged into an iterative framework, our novel low-dimensional representation provides improved kernel estimates and hence significantly better deconvolution performance when compared to end-to-end trained neural networks. The source code and pretrained models are available here</p>
+
+<center>
+<img src="assets/kernel_to_network.png" alt="drawing" style="width:35%;padding:1%;" />
+<img src="assets/iterative_scheme.png" alt="drawing" style="width:60%;padding:1%;" />
+</center>
+<p><br /></p>
+
+<center>
+<div style="width:100%;padding-bottom:35%;">
+<div style="float:left;width:33%;">
+	<img src="assets/results/mpr.png" alt="drawing" style="width:90%;padding-bottom:2%;" />
+	<span style="font-size:20px;">MPR-Net</span>
+</div>
+<div style="float:left;width:33%;">
+	<img src="assets/results/ours.png" alt="drawing" style="width:90%;padding-bottom:2%;" />
+	<span style="font-size:20px;">Ours</span>
+</div>
+<div style="float:left;width:33%;">
+	<img src="assets/results/gt.png" alt="drawing" style="width:90%;padding-bottom:1%;" />
+	<span style="font-size:20px;">Ground-Truth</span>
+</div>
+<br />
+</div>
+</center>
+
+<h2>Citation</h2>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>@article{sanghvi2023structured,
+  title={Structured Kernel Estimation for Photon-Limited Deconvolution},
+  author={Sanghvi, Yash and Mao, Zhiyuan and Chan, Stanley H},
+  journal={arXiv preprint arXiv:2303.03472},
+  year={2023}
+}
+</code></pre></div></div>
+
+<div class="footer-content" style="--maxw:100px; width: 100%; --px:100px">
+    <h4>Dataset, site maintained by <a href="https://github.com/sanghviyashiitb" target="_blank">@sanghviyashiitb</a>, Brought to you by the <a href="https://engineering.purdue.edu/ChanGroup/">i2Lab</a> at Purdue University.</h4>
+    <h4>PDF, Dataset, Github icons created by <a href="https://www.flaticon.com/free-icons/github" title="github icons">Flaticon</a>, Minimal theme by <a href="https://github.com/orderedlist">orderedlist</a></h4>
+</div>
+
+:ET
