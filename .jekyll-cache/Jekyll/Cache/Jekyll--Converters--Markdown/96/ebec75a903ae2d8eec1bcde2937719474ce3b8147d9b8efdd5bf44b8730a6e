@@ -1,41 +1,6 @@
-<!DOCTYPE html>
-<html lang="en-US">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-<!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>Structured Kernel Estimation for Photon-Limited Deconvolution | Non-Blind Deblurring Photon Limited</title>
-<meta name="generator" content="Jekyll v4.2.2" />
-<meta property="og:title" content="Structured Kernel Estimation for Photon-Limited Deconvolution" />
-<meta property="og:locale" content="en_US" />
-<meta name="description" content="Minimal is a theme for GitHub Pages." />
-<meta property="og:description" content="Minimal is a theme for GitHub Pages." />
-<link rel="canonical" href="http://localhost:4000/" />
-<meta property="og:url" content="http://localhost:4000/" />
-<meta property="og:site_name" content="Non-Blind Deblurring Photon Limited" />
-<meta property="og:type" content="website" />
-<meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Structured Kernel Estimation for Photon-Limited Deconvolution" />
-<script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebSite","description":"Minimal is a theme for GitHub Pages.","headline":"Structured Kernel Estimation for Photon-Limited Deconvolution","name":"Non-Blind Deblurring Photon Limited","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/img/logo.png"}},"url":"http://localhost:4000/"}</script>
-<!-- End Jekyll SEO tag -->
+I"<link rel="stylesheet" href="./css/slideshow.css" />
 
-    <link rel="stylesheet" href=/assets/css/style.css>
-  </head>
-
-  <body>
-  <div class="wrapper">
-  <!-- <div class="topnav" style="font: 15px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;">
-    <a href="/">Home</a>
-    <a href="/publications">Publications</a>
-    <a href="/projects">Projects</a>
-  </div> -->
-  <hr />
-  <div style="width:900px; text-align:middle">
-  <link rel="stylesheet" href="./css/slideshow.css" />
-
-<div style="width:100%;padding-bottom:20%;">
+<div style="width:100%;padding-bottom:10%;">
 
 <div style="float:left;width:64%">
 <h1>Structured Kernel Estimation for Photon-Limited Deconvolution</h1>
@@ -68,15 +33,16 @@
 </div>
 </center>
 
-<div style="width:100%;padding-bottom:5%;">
+<div style="width:100%;padding-bottom:35%;">
 <center>
 <div style="float:left;width:40%;">
 <img src="assets/kernel_to_network.png" alt="drawing" style="width:95%;padding:1%;" />
+<span style="font-size:16px;">Proposed low-dimensional representation for the blur kernel estimation</span>
 </div>
 <div style="float:left;width:59%;">
 <img src="assets/iterative_scheme.png" alt="drawing" style="width:95%;padding:1%;" />
+<span style="font-size: 16px">Iterative scheme using a differentiable non-blind solver F(.) and low-dimensional kernel representation T(.)</span>
 </div>
-<span style="font-size: 16px">(Left) Proposed low-dimensional representation for the blur kernel estimation (Right) Iterative scheme using a differentiable non-blind solver F(.) and low-dimensional kernel representation T(.)</span>
 </center>	
 </div>
 
@@ -121,6 +87,4 @@ In this paper, we propose a new blur estimation technique customized for photon-
     <h4>PDF, Dataset, Github icons created by <a href="https://www.flaticon.com/free-icons/github" title="github icons">Flaticon</a>, Minimal theme by <a href="https://github.com/orderedlist">orderedlist</a></h4>
 </div>
 
-
-  </div>  
-  </div>
+:ET

@@ -5,7 +5,7 @@ title: Structured Kernel Estimation for Photon-Limited Deconvolution
 layout: default
 ---
 <link rel="stylesheet" href="./css/slideshow.css">
-<div style="width:100%;padding-bottom:15%;">
+<div style="width:100%;padding-bottom:20%;">
 
 <div style="float:left;width:64%">
 <h1>Structured Kernel Estimation for Photon-Limited Deconvolution</h1>
@@ -37,28 +37,39 @@ layout: default
 	</div>
 </div>
 </center>
+
+<div style="width:100%;padding-bottom:5%;">
+<center>
+<div style="float:left;width:40%;">
+<img src="assets/kernel_to_network.png" alt="drawing" style="width:95%;padding:1%;"/>
+</div>
+<div style="float:left;width:59%;">
+<img src="assets/iterative_scheme.png" alt="drawing" style="width:95%;padding:1%;"/>
+</div>
+<span style="font-size: 16px">(Left) Proposed low-dimensional representation for the blur kernel estimation (Right) Iterative scheme using a differentiable non-blind solver F(.) and low-dimensional kernel representation T(.)</span>
+</center>	
+</div>
+
 <h2>Abstract</h2>
 <span style="font-size:16px;"> Images taken in a low light condition with the presence of camera shake suffer from motion blur and photon shot noise. State-of-the-art restoration networks perform well  but are largely limited to well-illuminated scenes and their performance drops significantly when shot noise is strong.<br>
 In this paper, we propose a new blur estimation technique customized for photon-limited conditions. The proposed method employs a gradient-based backpropagation method to estimate the blur kernel. By modeling the blur kernel using a low-dimensional representation with the key points on the motion trajectory, we significantly reduce the search space and improve regularity of the kernel estimation problem. When plugged into the iterative framework, our novel low-dimensional representation provides improved kernel estimates and hence significantly better deconvolution performance when compared to end-to-end trained networks.
 </span>
 
 <center>
-<img src="assets/kernel_to_network.png" alt="drawing" style="width:35%;padding:1%;"/>
-<img src="assets/iterative_scheme.png" alt="drawing" style="width:60%;padding:1%;"/>
-</center>		
-<br>
-
-<center>
 <div style="width:100%;padding-bottom:35%;">
-<div style="float:left;width:33%;">
+<div style="float:left;width:25%;">
+	<img src="assets/results/y.png" alt="drawing" style="width:90%;padding-bottom:2%;"/>
+	<span style="font-size:20px;">Blurred and Noisy</span>
+</div>
+<div style="float:left;width:25%;">
 	<img src="assets/results/mpr.png" alt="drawing" style="width:90%;padding-bottom:2%;"/>
 	<span style="font-size:20px;">MPR-Net</span>
 </div>
-<div style="float:left;width:33%;">
+<div style="float:left;width:25%;">
 	<img src="assets/results/ours.png" alt="drawing" style="width:90%;padding-bottom:2%;"/>
 	<span style="font-size:20px;">Ours</span>
 </div>
-<div style="float:left;width:33%;">
+<div style="float:left;width:25%;">
 	<img src="assets/results/gt.png" alt="drawing" style="width:90%;padding-bottom:1%;"/>
 	<span style="font-size:20px;">Ground-Truth</span>
 </div>
