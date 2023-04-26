@@ -35,10 +35,18 @@
   <div style="width:900px; text-align:middle">
   <link rel="stylesheet" href="./css/slideshow.css" />
 
+<div style="width:100%;padding-bottom:15%;">
+
+<div style="float:left;width:64%">
 <h1>Structured Kernel Estimation for Photon-Limited Deconvolution</h1>
 <h3>Yash Sanghvi, Zhiyuan Mao, Stanley H. Chan</h3>
+</div>
+<div style="float:left;width:35%">
+		<img src="assets/cvpr.jpg" alt="drawing" style="width:100%;padding:5%;" />
+</div>
+</div>
 <center>
-<div style="width:100%;padding-bottom:15%;">
+<div style="width:100%;padding-bottom:20%;">
 	<div style="float:left;width:33%;">
 		<a href="https://arxiv.org/abs/2303.03472">
 		<img src="assets/arxiv-logo.png" alt="drawing" style="width:20%;padding:5%;" />
@@ -60,8 +68,9 @@
 </div>
 </center>
 <h2>Abstract</h2>
-<p>Images taken in a low light condition with the presence of camera shake suffer from motion blur and photon shot noise. While state-of-the-art image restoration networks show promising results, they are largely limited to well-illuminated scenes and their performance drops significantly when photon shot noise is strong.
-In this paper, we propose a new blur estimation technique customized for photon-limited conditions. The proposed method employs a gradient-based backpropagation method to estimate the blur kernel. By modeling the blur kernel using a low-dimensional representation with the key points on the motion trajectory, we significantly reduce the search space and improve the regularity of the kernel estimation problem. When plugged into an iterative framework, our novel low-dimensional representation provides improved kernel estimates and hence significantly better deconvolution performance when compared to end-to-end trained neural networks. The source code and pretrained models are available here</p>
+<p><span style="font-size:16px;"> Images taken in a low light condition with the presence of camera shake suffer from motion blur and photon shot noise. State-of-the-art restoration networks perform well  but are largely limited to well-illuminated scenes and their performance drops significantly when shot noise is strong.<br />
+In this paper, we propose a new blur estimation technique customized for photon-limited conditions. The proposed method employs a gradient-based backpropagation method to estimate the blur kernel. By modeling the blur kernel using a low-dimensional representation with the key points on the motion trajectory, we significantly reduce the search space and improve regularity of the kernel estimation problem. When plugged into the iterative framework, our novel low-dimensional representation provides improved kernel estimates and hence significantly better deconvolution performance when compared to end-to-end trained networks.
+</span></p>
 
 <center>
 <img src="assets/kernel_to_network.png" alt="drawing" style="width:35%;padding:1%;" />
