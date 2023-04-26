@@ -1,4 +1,4 @@
-I" <link rel="stylesheet" href="./css/slideshow.css" />
+I"<link rel="stylesheet" href="./css/slideshow.css" />
 
 <div style="width:100%;padding-bottom:20%;">
 
@@ -33,15 +33,15 @@
 </div>
 </center>
 
-<div style="width:100%;padding-bottom:5%;">
+<div style="width:100%;padding-bottom:50px;">
 <center>
 <div style="float:left;width:40%;">
-<img src="assets/kernel_to_network.png" alt="drawing" style="width:95%;padding:1%;" />
+<img src="assets/key_points_to_kernel.png" alt="drawing" style="width:95%;padding:1%;" />
 </div>
 <div style="float:left;width:59%;">
 <img src="assets/iterative_scheme.png" alt="drawing" style="width:95%;padding:1%;" />
 </div>
-<span style="font-size: 16px">(Left) Proposed low-dimensional representation for the blur kernel estimation (Right) Proposed iterative method using a <i>differentiable non-blind solver <b>F(.)</b></i> and a <i>low-dimensional kernel representation <b>T(.)</b></i></span>
+<span style="font-size: 16px">(Left) Proposed low-dimensional representation for the blur kernel estimation (Right) Proposed iterative method using a differentiable non-blind solver <b>F(.)</b> and low-dimensional kernel representation <b>T(.)</b></span>
 </center>	
 </div>
 

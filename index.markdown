@@ -5,7 +5,7 @@ title: Structured Kernel Estimation for Photon-Limited Deconvolution
 layout: default
 ---
 <link rel="stylesheet" href="./css/slideshow.css">
-<div style="width:100%;padding-bottom:20%;">
+<div style="width:100%;padding-bottom:10%;">
 
 <div style="float:left;width:64%">
 <h1>Structured Kernel Estimation for Photon-Limited Deconvolution</h1>
@@ -38,7 +38,7 @@ layout: default
 </div>
 </center>
 
-<div style="width:100%;padding-bottom:5%;">
+<div style="width:100%;padding-bottom:40px;">
 <center>
 <div style="float:left;width:40%;">
 <img src="assets/key_points_to_kernel.png" alt="drawing" style="width:95%;padding:1%;"/>
