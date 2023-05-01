@@ -77,7 +77,12 @@ In this paper, we propose a new blur estimation technique customized for photon-
 </div>
 </center>
 
-<iframe src="https://drive.google.com/file/d/1gxtwkJcY25rF1flAKXfU--eMxcQI76dF/preview" width="640" height="480" allow="autoplay"></iframe>
+<div style="padding-bottom: 5%;">
+<center>
+<h2>Slides</h2>
+<iframe src="https://drive.google.com/file/d/1gxtwkJcY25rF1flAKXfU--eMxcQI76dF/preview" width="800" height="480" allow="autoplay"></iframe>
+</center>	
+</div>
 
 <h2>Citation</h2>
  ```
