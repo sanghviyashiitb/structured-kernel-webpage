@@ -17,22 +17,28 @@ layout: default
 </div>
 <center>
 <div style="width:100%;padding-bottom:20%;">
-	<div style="float:left;width:33%;">
+	<div style="float:left;width:24%;">
 		<a href="https://arxiv.org/abs/2303.03472">
 		<img src="assets/arxiv-logo.png" alt="drawing" style="width:20%;padding:5%;"/>
 		<h2>Arxiv</h2>
 	</a>
 	</div>
-	<div style="float:left;width:33%;">
+	<div style="float:left;width:24%;">
 		<a href="https://www.youtube.com/watch?v=jqCUJb3BUUo">
 		<img src="assets/video-logo.png" alt="drawing" style="width:20%;padding:5%;"/>
 		<h2>Video (5 min.)</h2>
 	</a>
 	</div>
-	<div style="float:left;width:33%;">
+	<div style="float:left;width:24%;">
 		<a href="https://github.com/sanghviyashiitb/poisson-deblurring">
 		<img src="assets/github.png" alt="drawing" style="width:20%;padding:5%;"/>
 		<h2>Code</h2>
+	</a>
+	</div>
+	<div style="float:left;width:24%;">
+		<a href="https://drive.google.com/file/d/1uiti2XoDOICuy-ue3J2BJ3UcyAgJPrBv/view?usp=share_link">
+		<img src="assets/poster.png" alt="drawing" style="width:20%;padding:5%;"/>
+		<h2>Poster</h2>
 	</a>
 	</div>
 </div>
