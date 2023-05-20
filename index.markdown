@@ -100,7 +100,7 @@ In this paper, we propose a new blur estimation technique customized for photon-
 }
  ```
  
-If you want to talk further about this paper, feel free to drop me an email at sanghviyash95@gmail.com
+If you want to talk further about this paper, feel free to drop me an email at [sanghviyash95@gmail.com](mailto:sanghviyash95@gmail.com).
 
 <div class="footer-content" style="--maxw:100px; width: 100%; --px:100px">
     <h4>Dataset, site maintained by <a href="https://github.com/sanghviyashiitb" target="_blank">@sanghviyashiitb</a>, Brought to you by the <a href="https://engineering.purdue.edu/ChanGroup/">i2Lab</a> at Purdue University.</h4>
