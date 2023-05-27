@@ -92,10 +92,11 @@ In this paper, we propose a new blur estimation technique customized for photon-
 
 <h2>Citation</h2>
  ```
-@article{sanghvi2023structured,
+@inproceedings{sanghvi2023structured,
   title={Structured Kernel Estimation for Photon-Limited Deconvolution},
   author={Sanghvi, Yash and Mao, Zhiyuan and Chan, Stanley H},
-  journal={arXiv preprint arXiv:2303.03472},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={9863--9872},
   year={2023}
 }
  ```
