@@ -30,7 +30,7 @@ layout: default
 	</a>
 	</div>
 	<div style="float:left;width:24%;">
-		<a href="https://github.com/sanghviyashiitb/poisson-deblurring">
+		<a href="https://github.com/sanghviyashiitb/structured-kernel-cvpr23">
 		<img src="assets/github.png" alt="drawing" style="width:20%;padding:5%;"/>
 		<h2>Code</h2>
 	</a>
